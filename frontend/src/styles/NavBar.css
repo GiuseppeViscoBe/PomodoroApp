@@ -1,0 +1,21 @@
+/* NavBar.css */
+.navbar-container {
+    @apply border flex justify-between font-bold font-roboto py-3 bg-customRed;
+  }
+  
+  .navbar-icon-text {
+    @apply flex items-center py-1 px-2 mr-3 rounded-md backdrop-blur-lg bg-white/25 ;
+  }
+  
+  .navbar-icon {
+    @apply h-6 w-6 text-white;
+  }
+  
+  .navbar-text {
+    @apply ml-1 text-white ;
+  }
+  
+  .navbar-secondary-text {
+    @apply tracking-wide text-white font-light;
+  }
+  
