@@ -4,6 +4,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+@font-face {
+  font-family: 'Arial Rounded MT Bold';
+  src: url('./fonts/arialroundedmtbold.ttf') format('truetype'); 
+  font-weight: bold;
+  font-style: normal;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: rgb(186, 73, 73) ;
 }
